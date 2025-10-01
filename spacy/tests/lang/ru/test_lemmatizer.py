@@ -2,9 +2,6 @@ import pytest
 from spacy.tokens import Doc
 
 
-pytestmark = pytest.mark.filterwarnings("ignore::DeprecationWarning")
-
-
 def test_ru_doc_lemmatization(ru_lemmatizer):
     words = ["мама", "мыла", "раму"]
     pos = ["NOUN", "VERB", "NOUN"]

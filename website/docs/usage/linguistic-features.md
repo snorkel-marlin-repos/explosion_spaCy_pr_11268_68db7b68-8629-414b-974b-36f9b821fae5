@@ -11,8 +11,8 @@ menu:
   - ['Tokenization', 'tokenization']
   - ['Merging & Splitting', 'retokenization']
   - ['Sentence Segmentation', 'sbd']
-  - ['Mappings & Exceptions', 'mappings-exceptions']
   - ['Vectors & Similarity', 'vectors-similarity']
+  - ['Mappings & Exceptions', 'mappings-exceptions']
   - ['Language Data', 'language-data']
 ---
 
