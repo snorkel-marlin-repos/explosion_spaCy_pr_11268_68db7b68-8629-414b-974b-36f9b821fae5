@@ -28,7 +28,7 @@ class Russian(Language):
     assigns=["token.lemma"],
     default_config={
         "model": None,
-        "mode": "pymorphy3",
+        "mode": "pymorphy2",
         "overwrite": False,
         "scorer": {"@scorers": "spacy.lemmatizer_scorer.v1"},
     },
